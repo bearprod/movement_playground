@@ -17,6 +17,8 @@ struct ContentView: View {
     
     @State var y_pos: Double = 450
     
+    @State var z_pos: Double = 450
+    
     var body: some View {
         GeometryReader { geometry in
             
