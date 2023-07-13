@@ -31,7 +31,7 @@ struct ContentView: View {
                     }
                     }
                     .offset(x: offset.width * 0.75, y: offset.height * 0.75)
-                    .stroke(Color.red, lineWidth: 6)
+                    .stroke(Color.yellow, lineWidth: 6)
                 Circle()
                         .fill(Color.blue)
                         .frame(width: 200, height: 200)
